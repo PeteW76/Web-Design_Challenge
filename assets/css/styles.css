@@ -1,0 +1,51 @@
+.bodystyle {background-color: lightgray;}
+.bodystyletwo {background-color: white;}
+h1 {color: darkcyan;}
+h2 {color: darkcyan;}
+h3 {color: darkcyan; padding-top: 15px; padding-bottom: 15px;}
+h4 {color:darkcyan; padding-top: 15px; padding-bottom: 15px; text-align: center;}
+.divhead {font-weight: bold;}
+.navbar-toggler {color: whitesmoke;}
+.navback {padding-left: 0;
+                background-color: whitesmoke;                
+}
+.navbar { background-color: whitesmoke;
+        padding: 0;
+        }
+.navbar-brand {background-color: darkcyan;
+              color: whitesmoke;
+              font-weight: bold;
+              padding-right: 1.5%;
+              padding-left: 1.5%;              
+              }
+.cellstyle {background-color: white;
+border: 2;
+padding: 0px;
+margin-top: 45px;
+border-color: black;
+}
+.img-l-float {float: left;}
+
+/* tr :nth-child(odd){
+        background-color:red;
+      }
+tr :nth-child(even){
+        background-color:green;
+      } */
+
+@media (max-width: 768px){
+.navbar {background-color: darkcyan;
+        padding: 0;
+                }
+.navback {background-color: darkcyan;}
+.nav-link {color: black;}
+.navbar-toggler-icon {color:whitesmoke}
+.dropdown-menu {background-color: darkcyan;}
+.dropdown-item {color: whitesmoke;
+                background-color: darkcyan;
+                }
+.cellstyle {margin-top: 10px;
+
+}
+
+}
